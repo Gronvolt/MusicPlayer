@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+
+	android:stretchColumns="*">
+
+	<TableRow>
+		<TextView
+			android:layout_span="2"
+			android:layout_gravity="center_horizontal"
+			android:textSize="24sp"
+			android:textColor="@color/black"
+			android:text="Bell Sound"
+			/>
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<TextView
+			android:layout_gravity="right"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="Left Volume : "
+		/>
+		<TextView
+			android:layout_gravity="left"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="0.5"
+			android:id="@+id/tvBellLeftVolume"
+		/>
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<SeekBar
+			android:layout_span="2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/sbBellLeftVolume"
+			/>
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<TextView
+			android:layout_gravity="right"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="Right Volume : "
+		/>
+		<TextView
+			android:layout_gravity="left"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="0.5"
+			android:id="@+id/tvBellRightVolume"
+		/>
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<SeekBar
+			android:layout_span="2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/sbBellRightVolume"
+		/>
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<TextView
+			android:layout_gravity="right"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="Rate : "
+		/>
+		<TextView
+			android:layout_gravity="left"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="1.0"
+			android:id="@+id/tvBellRate"
+		/>
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<SeekBar
+			android:layout_span="2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/sbBellRate"
+		/>
+
+	</TableRow>
+
+	<!-- -->
+	<TableRow>
+		<TextView
+			android:layout_span="2"
+			android:layout_gravity="center_horizontal"
+			android:textSize="24sp"
+			android:textColor="@color/black"
+			android:text="Hammer Blows"
+		/>
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<TextView
+			android:layout_gravity="right"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="Left Volume : "
+		/>
+		<TextView
+			android:layout_gravity="left"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="0.5"
+			android:id="@+id/tvHammerLeftVolume"
+		/>
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<SeekBar
+			android:layout_span="2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/sbHammerLeftVolume"
+		/>
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<TextView
+			android:layout_gravity="right"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="Right Volume : "
+		/>
+		<TextView
+			android:layout_gravity="left"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="0.5"
+			android:id="@+id/tvHammerRightVolume"
+		/>
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<SeekBar
+			android:layout_span="2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/sbHammerRightVolume"
+		/>
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<TextView
+			android:layout_gravity="right"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="Rate : "
+		/>
+		<TextView
+			android:layout_gravity="left"
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:text="1.0"
+			android:id="@+id/tvHammerRate"
+		/>
+
+	</TableRow>
+
+	<TableRow android:layout_marginTop="8dp">
+		<SeekBar
+			android:layout_span="2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/sbHammerRate"
+		/>
+
+	</TableRow>
+
+
+</TableLayout>
